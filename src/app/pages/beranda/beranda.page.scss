@@ -1,0 +1,32 @@
+ion-icon {
+  color: white;
+}
+
+.header-section {
+  --background: linear-gradient(to bottom left, #3DBDCF, #55BF30);
+  z-index: 1;
+  color: white;
+  text-align: center;
+  border-radius: 150px 150px 0px 0px;
+}
+
+
+ion-content {
+  z-index: 10;
+  position: absolute;
+  --background: rgba(1, 1, 1, 0);
+
+  .content-section {
+      margin-top: 30%;
+      background-color: white;
+      width: 100%;
+      padding-top: 25px;
+      padding-right: 15px;
+      padding-left: 15px;
+      border-radius: 50px 50px 0px 0px;
+
+    }
+
+  }
+
+

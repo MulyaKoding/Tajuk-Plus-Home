@@ -1,0 +1,25 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar class="header-section">
+    <ion-buttons slot="start">
+      <ion-button color="primary">
+        <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="start">
+      <ion-button class="navigation" routerLink="/">Login</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding fixed >
+  <div class="content-section">
+  <img src="assets/logo.png" />
+  <form>
+    <ion-input type="number" placeholder="No Handphone"></ion-input>
+    <ion-input type="password" placeholder="Password"></ion-input>
+    <ion-anchor routerLink="/lupa-password">Lupa Password ?</ion-anchor>
+    <ion-button class="btn-signup" routerLink="/daftar"  >Daftar</ion-button>
+    <ion-button class="btn-login">Masuk</ion-button>
+  </form>
+</div>
+</ion-content>
