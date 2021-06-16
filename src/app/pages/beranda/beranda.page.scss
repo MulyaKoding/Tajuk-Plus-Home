@@ -2,14 +2,26 @@ ion-icon {
   color: white;
 }
 
+
 .header-section {
   --background: linear-gradient(to bottom left, #3DBDCF, #55BF30);
   z-index: 1;
   color: white;
   text-align: center;
-  border-radius: 150px 150px 0px 0px;
+  border-radius: 0px 0px 150px 150px;
 }
 
+h3{
+  margin-left: 10px;
+}
+
+h4{
+  margin-left: 10px;
+}
+
+ion-grid{
+  margin-top: 10px;
+}
 
 ion-content {
   z-index: 10;
@@ -17,16 +29,30 @@ ion-content {
   --background: rgba(1, 1, 1, 0);
 
   .content-section {
-      margin-top: 30%;
+      margin-top: 13%;
       background-color: white;
-      width: 100%;
-      padding-top: 25px;
-      padding-right: 15px;
-      padding-left: 15px;
-      border-radius: 50px 50px 0px 0px;
+      width: 70%;
+      padding-top: 20px;
+      margin-left: 15%;
+      margin-right: 10%;
+      border-radius: 50px 50px 50px 50px;
 
     }
 
+    .content-card {
+      margin-top: 12%;
+      background-color: rgb(48, 180, 233);
+      width: 80%;
+      padding-top: 20px;
+      margin-left: 10%;
+      margin-right: 10%;
+      border-radius: 10px 10px 10px 10px;
+      color: white;
+    }
+
+
   }
+
+
 
 
